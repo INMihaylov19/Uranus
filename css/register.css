@@ -46,24 +46,12 @@ label {
     height: 2px;
     top: 0px;
     left: 50%;
-    transform: translateX(-50%);
     background: rgba(85, 43, 45, 0.562);
     transition: ease .6s;
 }
 
 .label-active {
     top: -3em;
-}
-
-#back-btn {
-    text-decoration: none;
-    color: rgb(120, 120, 120);
-    transition: 0.5s;
-}
-
-#back-btn:hover {
-    transition: 0.5s;
-    color: rgba(85, 43, 45, 0.562);
 }
 
 .button {
@@ -80,7 +68,7 @@ label {
 }
 
 .button:hover {
-    background: rgba(85, 43, 45, 0.562);
+    background: #262677;
     color: #ffffff;
 }
 
