@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
 .tbackground {
     margin-left: 5vw;
     margin-top: 1vw;
@@ -13,13 +14,14 @@ table.blueTable {
     width: 100%;
     text-align: left;
     border-collapse: collapse;
+    font-family: 'Jomhuria', cursive;
   }
   table.blueTable td, table.blueTable th {
     border: 1px solid #AAAAAA;
     padding: 3px 2px;
   }
   table.blueTable tbody td {
-    font-size: 13px;
+    font-size: 18px;
   }
   table.blueTable tr:nth-child(even) {
     background: #D0E4F5;
@@ -32,7 +34,7 @@ table.blueTable {
     border-bottom: 2px solid #444444;
   }
   table.blueTable thead th {
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bold;
     color: #FFFFFF;
     border-left: 2px solid #D0E4F5;
@@ -42,7 +44,7 @@ table.blueTable {
   }
   
   table.blueTable tfoot {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
     color: #FFFFFF;
     background: #D0E4F5;
@@ -52,7 +54,7 @@ table.blueTable {
     border-top: 2px solid #444444;
   }
   table.blueTable tfoot td {
-    font-size: 14px;
+    font-size: 18px;
   }
   table.blueTable tfoot .links {
     text-align: right;
