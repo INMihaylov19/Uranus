@@ -1,3 +1,12 @@
+.tbackground {
+    margin-left: 5vw;
+    margin-top: 1vw;
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
 table.blueTable {
     border: 1px solid #1C6EA4;
     background-color: #EEEEEE;
