@@ -24,3 +24,10 @@ p, h2{
     text-align: center;
     font-weight: bold;
  }
+
+ @media screen and (max-width: 1900px) {
+     p, h2 {
+         font-size: 10pt;
+     }
+ }
+
