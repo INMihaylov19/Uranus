@@ -56,7 +56,7 @@ label {
 }
 
 .button {
-    display: inline-block;
+    display: inline;
     padding: 12px 24px;
     background: rgb(220, 220, 220);
     font-weight: bold;
@@ -82,11 +82,38 @@ label {
     color: #ffffff;
 }
 
-@media screen and (max-width: 724px) {
+@media screen and (max-width: 1500px) {
     form {
-        width: 90%;
+        width: 60%;
+        margin-left: 23vw;
     }
-    .line {
+    .button {
+        margin-right: 20vw;
+        font-size: 12px;
+    }
+    .label-txt { 
+        font-size: .4em;
+    }  
+}
+
+@media screen and (max-width: 350px) {
+    body {
+        height: 140vh;
+    }
+    form {
+        margin-left: 17vw;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    form {
+        margin-left: 10vw;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    form {
+        margin-left: 7vw;
     }
 }
 
