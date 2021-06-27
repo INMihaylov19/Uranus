@@ -9,7 +9,7 @@ function submitAcc() {
             name: "admin2",
             pass: "admin1234",
         }]
-    // get the value enter in the input feels
+    // get the value entered in the input fields
     let name = document.getElementById("name").value;
     let pass = document.getElementById("pass").value;
 
