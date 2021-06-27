@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,900');
+
+.info-field {
+    margin-top: 2vh;
+    margin-left: 25vh;
+    background: rgba(255, 255, 255, 0.63);
+    width: 80%;
+    height: 90%;
+}
+
+.columns {
+    columns: 250px 4;
+    column-rule: 1px dotted #ccc;
+    column-gap: 3em;
+  }
+
+p {
+    font-family: 'Muli', sans-serif;
+    font-size: 20pt;
+ }
+
+.intro {
+    column-span: all;
+    text-align: center;
+    font-weight: bold;
+ }
