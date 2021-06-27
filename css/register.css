@@ -1,6 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Orelega One', cursive;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(59, 74, 156, 0.562)), url(../images/background.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    height: 100vh;
+}
+
 form {
+    margin-left: 35vw;
     width: 30%;
-    margin: 18vh auto;
     background: #efefef;
     padding: 60px 120px 80px 120px;
     text-align: center;
@@ -85,4 +100,13 @@ label {
     form {
         width: 90%;
     }
+}
+
+#error{
+    padding-bottom: 10%;
+    color: red;
+}
+
+#space{
+    padding-top: 10vh;
 }
