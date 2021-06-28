@@ -6,6 +6,7 @@
     background: rgba(255, 255, 255, 0.63);
     width: 80%;
     height: 90%;
+    padding: 1vw;
 }
 
 .columns {
@@ -14,10 +15,14 @@
     column-gap: 3em;
   }
 
-p, h2{
+p {
     font-family: 'Muli', sans-serif;
     font-size: 20pt;
- }
+}
+
+h3 {
+    font-family: 'Muli', sans-serif;
+}
 
 .intro {
     column-span: all;
@@ -25,9 +30,13 @@ p, h2{
     font-weight: bold;
  }
  @media screen and (max-width: 1900px) {
-     p, h2 {
+     p {
          font-size: 10pt;
      }
+
+     h3 {
+        font-family: 'Muli', sans-serif;
+    }
 
      .info-field {
          margin-left: 10vh;
