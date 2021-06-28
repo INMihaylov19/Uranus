@@ -86,6 +86,8 @@ label {
     display: inline;
 }
 
+
+
 @media screen and (max-width: 1500px) {
     form {
         width: 60%;
