@@ -1,6 +1,7 @@
 function backToMainPage() {
     window.location.href="index.html";
 }
+
 function submitAcc() {
     // Admin accounts 
     let adminAccs = [
