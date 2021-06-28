@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
 .tbackground {
     margin-left: 5vw;
     margin-top: 1vw;
@@ -14,7 +14,7 @@ table.blueTable {
     width: 100%;
     text-align: left;
     border-collapse: collapse;
-    font-family: 'Jomhuria', cursive;
+    font-family: 'Orelega One', cursive;
   }
   table.blueTable td, table.blueTable th {
     border: 1px solid #AAAAAA;
@@ -35,11 +35,9 @@ table.blueTable {
   }
   table.blueTable thead th {
     font-size: 18px;
-    font-weight: bold;
     color: #FFFFFF;
     border-left: 2px solid #D0E4F5;
   }
   table.blueTable thead th:first-child {
     border-left: none;
   }
-  

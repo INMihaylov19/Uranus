@@ -16,18 +16,17 @@
   }
 
 p {
-    font-family: 'Muli', sans-serif;
+    font-family: 'Orelega One', cursive;
     font-size: 20pt;
 }
 
 h3 {
-    font-family: 'Muli', sans-serif;
+    font-family: 'Orelega One', cursive;
 }
 
 .intro {
     column-span: all;
     text-align: center;
-    font-weight: bold;
  }
  @media screen and (max-width: 1900px) {
      p {
@@ -35,7 +34,7 @@ h3 {
      }
 
      h3 {
-        font-family: 'Muli', sans-serif;
+        font-family: 'Orelega One', cursive;
     }
 
      .info-field {
@@ -47,4 +46,3 @@ h3 {
 
      }
  }
-
